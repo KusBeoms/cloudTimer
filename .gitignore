@@ -1,0 +1,26 @@
+# SwiftPM / build output
+.build/
+.swiftpm/
+build/
+*.o
+*.swiftmodule
+
+# Xcode (if the package is ever opened there)
+xcuserdata/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# oh-my-claudecode agent state (plans, sessions, logs)
+.omc/
+
+# Editor-local files (keep .vscode/launch.json tracked)
+.vscode/*
+!.vscode/launch.json
+.idea/
+*.swp

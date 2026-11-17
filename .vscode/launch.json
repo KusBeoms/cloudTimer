@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:cloudTimer}",
+            "name": "Debug CloudTimer",
+            "target": "CloudTimer",
+            "configuration": "debug",
+            "preLaunchTask": "swift: Build Debug CloudTimer"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:cloudTimer}",
+            "name": "Release CloudTimer",
+            "target": "CloudTimer",
+            "configuration": "release",
+            "preLaunchTask": "swift: Build Release CloudTimer"
+        }
+    ]
+}
